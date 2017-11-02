@@ -171,30 +171,37 @@ font header .navbar-default .navbar-nav li a:hover {
   padding-top: 20px;
 }
 /*--
-	features Start
+	Solution Start
 --*/
-#features {
+#solution {
   text-align: center;
   padding: 90px 0;
+  background-color: whitesmoke;
 }
-#features .feature-item {
+#solution .feature-item {
   padding-bottom: 30px;
 }
-#features .feature-item i {
+#solution .feature-item i {
   font-size: 60px;
-  color: #4A4656;
+  color: #a62d37;
 }
-#features .feature-item h4 {
+#solution .feature-item h4 {
   padding-top: 20px;
   margin: 0;
   color: #666;
 }
-#features .feature-item p {
+#solution .feature-item p {
   color: #888;
   padding-top: 10px;
   margin: 0;
   font-size: 14px;
   line-height: 1.8;
+}
+#solution .btn-view-works {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
+  margin-top: 20px;
 }
 /*--
 	call-to-action Start
@@ -239,9 +246,48 @@ font header .navbar-default .navbar-nav li a:hover {
   margin-top: 30px;
 }
 /*--
-	Feature Start
+	Chatbot Start
 --*/
-#feature {
+#chatbot {
+  background: url("../img/chatbots.png");
+  background-position: 50% 94px;
+  width: 100%;
+  display: block;
+  position: relative;
+  overflow: visible;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-color: #fff;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  padding: 100px 0;
+}
+#chatbot h2 {
+  font-size: 28px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+#chatbot p {
+  color: #8d8f92;
+  margin-bottom: 20px;
+}
+#chatbot .btn-view-works {
+  background: #655E7A;
+  color: #fff;
+  padding: 10px 20px;
+}
+/*--
+	Dashboard Start
+--*/
+#dashboard {
   background: url("../img/featue-bg.jpg");
   background-position: 50% 94px;
   width: 100%;
@@ -263,16 +309,16 @@ font header .navbar-default .navbar-nav li a:hover {
   backface-visibility: hidden;
   padding: 100px 0;
 }
-#feature h2 {
+#dashboard h2 {
   font-size: 28px;
   font-weight: 600;
   margin-bottom: 30px;
 }
-#feature p {
+#dashboard p {
   color: #8d8f92;
   margin-bottom: 20px;
 }
-#feature .btn-view-works {
+#dashboard .btn-view-works {
   background: #655E7A;
   color: #fff;
   padding: 10px 20px;
