@@ -257,6 +257,7 @@
  #call-to-action p {
    font-size: 18px;
    line-height: 1.6;
+   margin-bottom: 50px;
  }
  #call-to-action .btn-call-to-action {
    padding: 15px 35px;
