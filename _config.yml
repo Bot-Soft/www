@@ -15,18 +15,17 @@ keep_files:
 
 # Site settings
 title: BotSoft
-subtitle: "A free HTML5 agency template"
-url: "http://luminousrubyist.github.io" # the base hostname & protocol for your site
-# baseurl: "/the/subpath/of/your/site" # Set this value to "" if you want your site to be root
+subtitle: "Chatbot Solution for Your Business"
+url: "http://botsoft.ai"
 baseurl: ""
-cover: "/assets/cover.png"
-logo: "/assets/logo.png"
+cover: "/img/cover.png"
+logo: "/img/logo.png"
 
 # Build settings
 markdown: kramdown
 
 # Google analytics
-# ga_tracking_id: "UA-XXXX-1"
+ga_tracking_id: "UA-109577504-1"
 
 # Category descriptions (for archive pages)
 descriptions:
