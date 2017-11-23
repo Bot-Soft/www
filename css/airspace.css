@@ -118,6 +118,7 @@
  }
  #slider .block {
    color: #E3E3E4;
+   background-color:#ffffff00;
  }
  #slider .block h1 {
    font-family: 'Roboto', sans-serif;
@@ -152,6 +153,17 @@
    color: #fff;
    margin-top: 30px;
  }
+ #slider .title {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  border: none;
+  font: normal 196px/1 Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  text-shadow: 3px 3px 28px rgba(84,84,84,0.91) ;
+}
  /*--
    wrapper Start
  --*/
