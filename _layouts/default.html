@@ -30,11 +30,36 @@
     }(document, 'script', 'facebook-jssdk'));
   </script>
 
-  {{ content }} 
+  <script type="text/javascript">
+    $(document).on("scroll", function () {
+      if ($(document).scrollTop() > 100) {
+        $("header").removeClass("large").addClass("small");
+      } else {
+        $("header").removeClass("small").addClass("large");
+      }
+    });
+  </script>
+
+  {{ content }}
 
   <script type="text/javascript">
-var $zoho=$zoho || {};$zoho.salesiq = $zoho.salesiq || {widgetcode:"9d77a1c524fa96e08f4f949b734fef1ded81a57b36211e94ae86ab0e26d634cb", values:{},ready:function(){$zoho.salesiq.floatbutton.visible('hide');}};var d=document;s=d.createElement("script");s.type="text/javascript";s.id="zsiqscript";s.defer=true;s.src="https://salesiq.zoho.eu/widget";t=d.getElementsByTagName("script")[0];t.parentNode.insertBefore(s,t);
-</script>
+    var $zoho = $zoho || {};
+    $zoho.salesiq = $zoho.salesiq || {
+      widgetcode: "9d77a1c524fa96e08f4f949b734fef1ded81a57b36211e94ae86ab0e26d634cb",
+      values: {},
+      ready: function () {
+        $zoho.salesiq.floatbutton.visible('hide');
+      }
+    };
+    var d = document;
+    s = d.createElement("script");
+    s.type = "text/javascript";
+    s.id = "zsiqscript";
+    s.defer = true;
+    s.src = "https://salesiq.zoho.eu/widget";
+    t = d.getElementsByTagName("script")[0];
+    t.parentNode.insertBefore(s, t);
+  </script>
 </body>
 
 </html>
