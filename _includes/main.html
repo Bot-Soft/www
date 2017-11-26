@@ -1,0 +1,155 @@
+{% include header.html %} 
+
+<section id="slider">
+  <div class="container" style="padding-top: 300px;">
+    <div class="row">
+      <div class="col-md-7 col-md-offset-6">
+        <div class="block title">
+          <h1 class="animated fadeInUp">{{site.header[page.language]}}</h1>
+          <p class="animated fadeInUp">{{site.subheader[page.language]}}<br /><br />
+            <a href="#solution" class="btn btn-call-to-action">{{site.learnmorebtn[page.language]}}</a>
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="solution">
+  <div class="container">
+    <div class="row justify-content-md-center">
+
+      <div class="col-md-12">
+        <div class="feature-item">
+          <h3>{{site.missionsummary[page.language]}}</h3>
+          <p>{{site.missiondetails[page.language]}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="./img/sell.jpg">
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12 col-md-offset-1">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{site.sell[page.language]}}</h2>
+            <p>{{site.sellsubtitle[page.language]}}</p>
+          </div>
+          <p>{{site.selltext[page.language]}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12 col-md-offset-1">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{site.getinsights[page.language]}}</h2>
+            <p>{{site.getinsightssubtitle[page.language]}}</p>
+          </div>
+          <p>{{site.getinsightstext[page.language]}}</p>
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="./img/get-insights.jpg">
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="intro">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-5 col-sm-12">
+        <div class="block">
+          <img src="./img/sell-better.jpg">
+        </div>
+      </div>
+      <div class="col-md-5 col-sm-12 col-md-offset-1">
+        <div class="block">
+          <div class="section-title">
+            <h2>{{site.sellbetter[page.language]}}</h2>
+            <p>{{site.sellbettersubtitle[page.language]}}</p>
+          </div>
+          <p>{{site.sellbettertext[page.language]}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="call-to-action">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <div class="block">
+          <h2>{{site.calltoactiontitle[page.language]}}</h2>
+          <p>{{site.calltoactiontext[page.language]}}</p>
+          <a class="fb-send-to-messenger" messenger_app_id="498860363814397" page_id="1633262150079201" data-ref color="white" size="xlarge"></a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="contact-form">
+  <div class="container">
+    <div class="row">
+      <div class="block">
+        <META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+        <form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads74775000000090003 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
+          accept-charset='UTF-8'>
+          <h3>{{site.contactus[page.language]}}</h3>
+          <div class="col-md-6 col-sm-12">
+            <!-- Do not remove this code. -->
+            <input type='text' style='display:none;' name='xnQsjsdp' value='b6930f3f4e7c7fdc66d8b890e3aa6bda4f863053b11fefd852467768fa2307b8'
+            />
+            <input type='hidden' name='zc_gad' id='zc_gad' value='' />
+            <input type='text' style='display:none;' name='xmIwtLD' value='964ea99c0abed63829d6ab3c7949e8c3d6471b76fa50929abd27999a3e3989ff'
+            />
+            <input type='text' style='display:none;' name='actionType' value='TGVhZHM=' />
+
+            <input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;bot-soft.github.io&#x2f;www&#x2f;index'
+            />
+            <!-- Do not remove this code. -->
+            <div class="form-group">
+              <input maxlength='80' name='Last Name' type="text" class="form-control" placeholder="{{site.yourname[page.language]}}">
+            </div>
+            <div class="form-group">
+              <input maxlength='100' name='Email' type="text" class="form-control" placeholder="{{site.email[page.language]}}">
+            </div>
+            <div class="form-group">
+              <input maxlength='100' name='Company' type="text" class="form-control" placeholder="{{site.company[page.language]}}">
+            </div>
+          </div>
+          <div class="col-md-6 col-sm-12">
+            <div class="block">
+              <form>
+                <div class="form-group-2">
+                  <textarea name='Description' maxlength='1000' class="form-control" rows="3" placeholder="{{site.yourmessage[page.language]}}"></textarea>
+                </div>
+                <button class="btn btn-default" type="submit">{{site.sendbutton[page.language]}}</button>
+              </form>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% include footer.html %}

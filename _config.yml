@@ -37,89 +37,115 @@ descriptions:
 
 # Multylingual
 
-# HEADER
+# HEADER AND FOOTER
 
 headerabout:
   en: "About"
+  bg: "За нас"
 
 headersolution:
   en: "Solution"
+  bg: "Решение"
 
 headercontactus:
   en: "Contact Us"
+  bg: "Контакти"
 
 headerblog:
   en: "Blog"
+  bg: "Блог"
 
 # SLIDER
 header:
   en: "CHATBOT SOLUTION<br />FOR YOUR BUSINESS"
+  bg: "ЧАТБОТ РЕШЕНИЯ<br />ЗА ВАШИЯТ БИЗНЕС"
 
 subheader:
   en: "Establish highly profitable sales channel<br />that people love"
+  bg: "Създайте канал за продажба който вашите клиенти обичат"
 
 learnmorebtn:
   en: "Learn More"
+  bg: "Научете повече"
 
 # ABOUT
 missionsummary:
   en: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 billion</a> people worldwide can reach your business with one click via<a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
+  bg: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 милярда</a> човека могат да се свържат с вашият бизнес с един клик чрез <a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
 
 missiondetails:
   en: "The <b>BotSoft</b> mission is to enable businesses to take advantage of that enormous potential <br />and establish highly profitable sales channel that people love."
+  bg: "Нашата мисия е да помогнем на бизнеса да използва този огромен потенциал<br />и да създаде канал за продажби който хората обичат."
 
 # SELL
 sell:
   en: "SELL"
+  bg: "Продавай"
 
 sellsubtitle:
   en: "Expand your market share" 
+  bg: "Увеличете пазарният си дял"
 
 selltext:
-  en: "Engage more customers by utilizing a new sales channel with substantial potential. Sell your goods right on Facebook Messenger. Your customers are going to love that!"
+  en: "Think about how many customers will order from you, just because your business utilize Facebook Messanger as a sales channel. This is cool! And just because of that people are going to try!"
+  bg: "Замислете се колко хора биха си поръчали от вас, само защото използвате Facebooк Messanger като канал за продажба. Това е яко! Вашите клиентите ще го изпробват!"
 
 # GET INSIGHTS
 getinsights:
   en: "Get Insights"
+  bg: "Опознай"
 
 getinsightssubtitle:
   en: "Reduce your expenses"
+  bg: "Намалете разходите си"
 
 getinsightstext:
   en: "Analyze what your customers are willing to buy and what they are not. Exclude the products they are not interested and reduce your expenses. Make the customer's choice easier. The easier customers choose what to buy, the happier they will be."
+  bg: "Анализирайте какво вашите клиенти са склонни да купят и какво не. Спестете пари като елиминирате стоките които не представляват интерес за тях. Това ще направи изборът им по-лесен. Колкото по-лесно е за клиента да си избере, толкова по-щастлив ще бъде той."
 
 # SELL BETTER
 sellbetter:
   en: "Sell Better"
+  bg: "Продавай по-добре"
 
 sellbettersubtitle:
   en: "Increase your revenue"
+  bg: "Увеличете печалбата си"
 
 sellbettertext:
   en: "Having the insights who your customers are, what they like and what they don't, you will be able to organize and present your goods in the most attractive way based on the customer preferences. Offer goods that they are willing to buy, and this is going to increase your incomes!"
+  bg: "Опознавайки клиентите си, какво харесват и какво не, вие ще можете да организирате продуктите си по най-атрактивният начин спрямо предпочитанията на всеки клиент. Започнете да предлагате продукти които клиентите ви наистина искат да купуват!"
 
 # CALL TO ACTION
 calltoactiontitle:
   en: "The customers you want to reach already use Facebook Messanger"
+  bg: "Клиентите до който искате да достигнете вече използват Facebook Messanger"
 
 calltoactiontext:
   en: "Now people won't need to download an app to interact with your business.<br /> We are going to build your chatbot and enable people to instantly reach your business on whichever device and platform they use."
+  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашият бизнес.<br /> Ние ще създадем за вас чатбот, който да позволи на клиентите ви да комуникират с бизнесът би в реално време от всички възможни устройства и платформи."
 
 # CONTACT US
 contactus:
   en: "CONTACT US"
+  bg: "СВЪРЖЕТЕ СЕ С НАС"
 
 yourname:
   en: "Your Name"
+  bg: "Вашето име"
 
 email:
   en: "Email Address"
+  bg: "Email Адрес"
 
 company:
   en: "Company"
+  bg: "Компания"
 
 yourmessage:
   en: "Your Message"
+  bg: "Вашето съобщение"
 
 sendbutton:
   en: "Send"
+  bg: "Изпрати"
