@@ -746,7 +746,7 @@ font header .navbar-default .navbar-nav li a:hover {
    contact-form Start
  --*/
 #contact-form {
-    padding-top: 140px;
+    padding-top: 100px;
     padding-bottom: 140px;
 }
 #contact-form .block form .form-group {
@@ -779,6 +779,10 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #fff;
     font-family: "Open Sans", sans-serif;
     font-size: 18px;
+}
+#contact-form .block h3 {
+  padding-left: 15px;
+  padding-bottom: 15px;
 }
 /*--
    wrapper-contact Start
