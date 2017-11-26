@@ -21,18 +21,15 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
               <ul class="nav navbar-nav navbar-right">
-                <!-- <li><a href="{{ site.github.url }}/">Home</a></li> -->
-                <!-- <li><a href="{{ site.github.url }}/work">Work</a></li> -->
-                <li><a href="#solution">About</a></li>
-                <li><a href="#intro">Solution</a></li>
-                <li><a href="#contact-form">Contact Us</a></li>
-                <li><a href="https://medium.com/botsoft">Blog</a></li>
-                <!-- <li><a href="{{ site.github.url }}/contact">Contact</a></li> -->
+                <li><a href="#solution">{{site.headerabout[page.language]}}</a></li>
+                <li><a href="#intro">{{site.headersolution[page.language]}}</a></li>
+                <li><a href="#contact-form">{{site.headercontactus[page.language]}}</a></li>
+                <li><a href="https://medium.com/botsoft">{{site.headerblog[page.language]}}</a></li>
               </ul>
-            </div><!-- /.navbar-collapse -->
-          </div><!-- /.container-fluid -->
+            </div>
+          </div>
         </nav>
       </div>
     </div>
   </div>
-</header><!-- header close -->
+</header>

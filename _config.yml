@@ -37,6 +37,20 @@ descriptions:
 
 # Multylingual
 
+# HEADER
+
+headerabout:
+  en: "About"
+
+headersolution:
+  en: "Solution"
+
+headercontactus:
+  en: "Contact Us"
+
+headerblog:
+  en: "Blog"
+
 # SLIDER
 header:
   en: "CHATBOT SOLUTION<br />FOR YOUR BUSINESS"
