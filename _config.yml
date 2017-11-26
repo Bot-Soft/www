@@ -18,7 +18,7 @@ title: BotSoft
 subtitle: "Chatbot Solution for Your Business"
 url: "http://botsoft.ai"
 baseurl: ""
-cover: "/img/cover.png"
+cover: "/img/placeit8.jpg"
 logo: "/img/logo.png"
 
 # Build settings
@@ -34,3 +34,78 @@ descriptions:
 
   - cat: dummy
     desc: "Just some placeholder posts, lorem ipsum and the rest."
+
+# Multylingual
+
+# SLIDER
+header:
+  en: "CHATBOT SOLUTION<br />FOR YOUR BUSINESS"
+
+subheader:
+  en: "Establish highly profitable sales channel<br />that people love"
+
+learnmorebtn:
+  en: "Learn More"
+
+# ABOUT
+missionsummary:
+  en: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 billion</a> people worldwide can reach your business with one click via<a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
+
+missiondetails:
+  en: "The <b>BotSoft</b> mission is to enable businesses to take advantage of that enormous potential <br />and establish highly profitable sales channel that people love."
+
+# SELL
+sell:
+  en: "SELL"
+
+sellsubtitle:
+  en: "Expand your market share" 
+
+selltext:
+  en: "Engage more customers by utilizing a new sales channel with substantial potential. Sell your goods right on Facebook Messenger. Your customers are going to love that!"
+
+# GET INSIGHTS
+getinsights:
+  en: "Get Insights"
+
+getinsightssubtitle:
+  en: "Reduce your expenses"
+
+getinsightstext:
+  en: "Analyze what your customers are willing to buy and what they are not. Exclude the products they are not interested and reduce your expenses. Make the customer's choice easier. The easier customers choose what to buy, the happier they will be."
+
+# SELL BETTER
+sellbetter:
+  en: "Sell Better"
+
+sellbettersubtitle:
+  en: "Increase your revenue"
+
+sellbettertext:
+  en: "Having the insights who your customers are, what they like and what they don't, you will be able to organize and present your goods in the most attractive way based on the customer preferences. Offer goods that they are willing to buy, and this is going to increase your incomes!"
+
+# CALL TO ACTION
+calltoactiontitle:
+  en: "The customers you want to reach already use Facebook Messanger"
+
+calltoactiontext:
+  en: "Now people won't need to download an app to interact with your business.<br /> We are going to build your chatbot and enable people to instantly reach your business on whichever device and platform they use."
+
+# CONTACT US
+contactus:
+  en: "CONTACT US"
+
+yourname:
+  en: "Your Name"
+
+email:
+  en: "Email Address"
+
+company:
+  en: "Company"
+
+yourmessage:
+  en: "Your Message"
+
+sendbutton:
+  en: "Send"
