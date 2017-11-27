@@ -201,6 +201,14 @@ font header .navbar-default .navbar-nav li a:hover {
 #intro .section-title p {
     padding-top: 20px;
 }
+#intro .btn-call-to-action {
+    padding: 15px 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(0, 132, 255, 0.8);
+    font-size: 15px;
+    color: #ffffff;
+}
 /*--
    Solution Start
  --*/
