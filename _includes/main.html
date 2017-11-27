@@ -7,7 +7,7 @@
         <div class="block title">
           <h1 class="animated fadeInUp">{{site.header[page.language]}}</h1>
           <p class="animated fadeInUp">{{site.subheader[page.language]}}<br /><br />
-            <a href="#solution" class="btn btn-call-to-action">{{site.learnmorebtn[page.language]}}</a>
+            <a href="#solution" onclick='mixpanel.track("Learn More button clicked")' class="btn btn-call-to-action">{{site.learnmorebtn[page.language]}}</a>
           </p>
         </div>
       </div>
@@ -44,7 +44,7 @@
             <p>{{site.sellsubtitle[page.language]}}</p>
           </div>
           <p>{{site.selltext[page.language]}}</p>
-          <a href="https://m.me/botsoftpage" class="btn btn-call-to-action">{{site.tryforfree[page.language]}}</a>
+          <a href="https://m.me/botsoftpage" onclick='mixpanel.track("Try for Free button clicked")' class="btn btn-call-to-action">{{site.tryforfree[page.language]}}</a>
         </div>
       </div>
     </div>
@@ -143,7 +143,7 @@
                 <div class="form-group-2">
                   <textarea name='Description' maxlength='1000' class="form-control" rows="3" placeholder="{{site.yourmessage[page.language]}}"></textarea>
                 </div>
-                <button class="btn btn-default" type="submit">{{site.sendbutton[page.language]}}</button>
+                <button class="btn btn-default" onclick='mixpanel.track("Contact us form submitted")' type="submit">{{site.sendbutton[page.language]}}</button>
               </form>
             </div>
           </div>

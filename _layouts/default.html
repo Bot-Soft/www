@@ -28,9 +28,7 @@
       js.src = "https://connect.facebook.net/en_US/sdk.js";
       fjs.parentNode.insertBefore(js, fjs);
     }(document, 'script', 'facebook-jssdk'));
-  </script>
-
-  {{ content }}
+  </script> {{ content }}
 
   <script type="text/javascript">
     var $zoho = $zoho || {};
@@ -87,10 +85,13 @@
             if (fieldObj.name == 'Last Name') {
               name = fieldObj.value;
             }
-          } catch (e) {}
+          } catch (e) { }
         }
       }
     }
+  </script>
+  <script>
+    mixpanel.track("Landing page opened");
   </script>
 </body>
 
