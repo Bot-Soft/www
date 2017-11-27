@@ -87,7 +87,7 @@ sellsubtitle:
   bg: "Увеличете пазарният си дял"
 
 selltext:
-  en: "Think about how many customers will order from you, just because your business utilize Facebook Messanger as a sales channel. This is cool! And just because of that people are going to try!"
+  en: "Think about how many customers will order from you, just because your business utilize Facebook Messanger as a sales channel. How cool is that! People are going to try!"
   bg: "Замислете се колко хора биха си поръчали от вас, само защото използвате Facebooк Messanger като канал за продажба. Това е яко! Вашите клиентите ще го изпробват!"
 
 # GET INSIGHTS
@@ -100,8 +100,8 @@ getinsightssubtitle:
   bg: "Намалете разходите си"
 
 getinsightstext:
-  en: "Analyze what your customers are willing to buy and what they are not. Exclude the products they are not interested and reduce your expenses. Make the customer's choice easier. The easier customers choose what to buy, the happier they will be."
-  bg: "Анализирайте какво вашите клиенти са склонни да купят и какво не. Спестете пари като елиминирате стоките които не представляват интерес за тях. Това ще направи изборът им по-лесен. Колкото по-лесно е за клиента да си избере, толкова по-щастлив ще бъде той."
+  en: "Do your customers like your products? Identify what your customers are willing to buy and what they don't. Reduce your expenses for something that customers won't value."
+  bg: "Вашите клиенти харесват ли продуктите които продавате? Идентифицирайте, какво клиентите ви купуват и какво не. Намалете разходите за продукти, които клиентите ви не купуват."
 
 # SELL BETTER
 sellbetter:
@@ -113,7 +113,7 @@ sellbettersubtitle:
   bg: "Увеличете печалбата си"
 
 sellbettertext:
-  en: "Having the insights who your customers are, what they like and what they don't, you will be able to organize and present your goods in the most attractive way based on the customer preferences. Offer goods that they are willing to buy, and this is going to increase your incomes!"
+  en: "Easily find you top and bad performing products! "
   bg: "Опознавайки клиентите си, какво харесват и какво не, вие ще можете да организирате продуктите си по най-атрактивният начин спрямо предпочитанията на всеки клиент. Започнете да предлагате продукти които клиентите ви наистина искат да купуват!"
 
 # CALL TO ACTION
@@ -123,7 +123,7 @@ calltoactiontitle:
 
 calltoactiontext:
   en: "Now people won't need to download an app to interact with your business.<br /> We are going to build your chatbot and enable people to instantly reach your business on whichever device and platform they use."
-  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашият бизнес.<br /> Ние ще създадем за вас чатбот, който да позволи на клиентите ви да комуникират с бизнесът би в реално време от всички възможни устройства и платформи."
+  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашият бизнес.<br /> Ние ще създадем за вас чатбот, който да позволи на вашите клиенти да комуникират с бизнесът ви в реално време от всички възможни устройства и платформи."
 
 # CONTACT US
 contactus:
