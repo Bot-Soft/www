@@ -122,6 +122,23 @@ font header .navbar-default .navbar-nav li a:hover {
         height: 100%;
         background: linear-gradient(to left, #8b86a3, #322e40);
     }
+    #slider .block h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 60px;
+        letter-spacing: 10px;
+        padding-bottom: 45px;
+        text-align: center;
+    }
+    #slider .block p {
+        font-size: 23px;
+        line-height: 40px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        letter-spacing: 3px;
+        text-align: center;
+    }
 }
 @media (min-width: 1001px) {
     #slider {
@@ -131,6 +148,9 @@ font header .navbar-default .navbar-nav li a:hover {
         background-position: 10% 0%;
         padding: 100px 0 280px 0;
         position: relative;
+    }
+    #slider .container {
+        padding-top: 250px;
     }
     #slider .btn-call-to-action {
         padding: 15px 35px;
@@ -151,28 +171,28 @@ font header .navbar-default .navbar-nav li a:hover {
         background: linear-gradient(to left, #8b86a3, #322e40);
         opacity: 0.2;
     }
+    #slider .block h1 {
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        font-size: 45px;
+        line-height: 60px;
+        letter-spacing: 10px;
+        padding-bottom: 45px;
+        text-align: left;
+    }
+    #slider .block p {
+        font-size: 23px;
+        line-height: 40px;
+        font-family: "Roboto", sans-serif;
+        font-weight: 300;
+        letter-spacing: 3px;
+        text-align: left;
+    }
 }
 
 #slider .block {
     color: #e3e3e4;
     background-color: #ffffff00;
-}
-#slider .block h1 {
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    font-size: 45px;
-    line-height: 60px;
-    letter-spacing: 10px;
-    padding-bottom: 45px;
-    text-align: left;
-}
-#slider .block p {
-    font-size: 23px;
-    line-height: 40px;
-    font-family: "Roboto", sans-serif;
-    font-weight: 300;
-    letter-spacing: 3px;
-    text-align: left;
 }
 #slider .btn-try {
     padding: 15px 35px;
