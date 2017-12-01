@@ -58,11 +58,11 @@ headerblog:
 # SLIDER
 header:
   en: "CHATBOT SOLUTION<br />FOR YOUR BUSINESS"
-  bg: "ЧАТБОТ РЕШЕНИЯ<br />ЗА ВАШИЯТ БИЗНЕС"
+  bg: "ЧАТБОТ РЕШЕНИЯ<br />ЗА ВАШИЯ БИЗНЕС"
 
 subheader:
   en: "Establish highly profitable sales channel<br />that people love"
-  bg: "Създайте канал за продажба който вашите клиенти обичат"
+  bg: "Създайте канал за продажба, който вашите клиенти обичат"
 
 learnmorebtn:
   en: "Learn More"
@@ -71,11 +71,11 @@ learnmorebtn:
 # ABOUT
 missionsummary:
   en: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 billion</a> people worldwide can reach your business with one click via <a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
-  bg: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 милярда</a> човека могат да се свържат с вашият бизнес с един клик чрез <a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
+  bg: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 милиарда</a> човека могат да се свържат с вашия бизнес с един клик чрез <a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
 
 missiondetails:
   en: "The <b>BotSoft</b> mission is to enable businesses to take advantage of that enormous potential <br />and establish highly profitable sales channel that people love."
-  bg: "Нашата мисия е да помогнем на бизнеса да използва този огромен потенциал<br />и да създаде канал за продажби който хората обичат."
+  bg: "Нашата мисия е да помогнем на бизнеса да използва този огромен потенциал<br />и да създаде канал за продажби, който хората обичат."
 
 # SELL
 sell:
@@ -88,7 +88,7 @@ sellsubtitle:
 
 selltext:
   en: "Think about how many customers will order from you, just because your business utilize Facebook Messanger as a sales channel. How cool is that! People are going to love it!"
-  bg: "Замислете се колко хора биха си поръчали от вас, само защото използвате Facebooк Messanger като канал за продажба. Това е яко! Вашите клиентите ще го изпробват!"
+  bg: "Замислете се колко хора биха си поръчали от вас, само защото използвате Facebooк Messanger като канал за продажба. Това е яко! Вашите клиенти ще го изпробват!"
 
 # GET INSIGHTS
 getinsights:
@@ -101,7 +101,7 @@ getinsightssubtitle:
 
 getinsightstext:
   en: "Do your customers like your products? Identify what your customers are willing to buy and what they don't. Reduce your expenses for something that customers won't value."
-  bg: "Вашите клиенти харесват ли продуктите които продавате? Идентифицирайте, какво клиентите ви купуват и какво не. Намалете разходите за продукти, които клиентите ви не купуват."
+  bg: "Вашите клиенти харесват ли продуктите, които продавате? Идентифицирайте, какво клиентите ви купуват и какво не. Намалете разходите за продукти, които клиентите ви не купуват."
 
 # SELL BETTER
 sellbetter:
@@ -114,16 +114,16 @@ sellbettersubtitle:
 
 sellbettertext:
   en: "Having the insights who your customers are, what they like and what they don't, you will be able to organize and present your goods in the most attractive way based on the customer preferences. Offer goods that they are willing to buy, and this is going to increase your incomes!"
-  bg: "Опознавайки клиентите си, какво харесват и какво не, вие ще можете да организирате продуктите си по най-атрактивният начин спрямо предпочитанията на всеки клиент. Започнете да предлагате продукти които клиентите ви наистина искат да купуват!"
+  bg: "Опознавайки клиентите си, какво харесват и какво не, вие ще можете да организирате продуктите си по най-атрактивният начин спрямо предпочитанията на всеки клиент. Започнете да предлагате продукти, които клиентите ви наистина искат да купуват!"
 
 # CALL TO ACTION
 calltoactiontitle:
   en: "The customers you want to reach already use Facebook Messanger"
-  bg: "Клиентите до който искате да достигнете вече използват Facebook Messanger"
+  bg: "Клиентите, до които искате да достигнете вече използват Facebook Messanger"
 
 calltoactiontext:
   en: "Now people won't need to download an app to interact with your business.<br /> We are going to build your chatbot and enable people to instantly reach your business on whichever device and platform they use."
-  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашият бизнес.<br /> Ние ще създадем за вас чатбот, който да позволи на вашите клиенти да комуникират с бизнесът ви в реално време от всички възможни устройства и платформи."
+  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашия бизнес.<br /> Ние ще създадем за вас чатбот, който да позволи на вашите клиенти да комуникират с бизнесът ви в реално време от всички възможни устройства и платформи."
 
 # CONTACT US
 contactus:
