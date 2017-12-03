@@ -39,19 +39,23 @@ descriptions:
 
 # HEADER AND FOOTER
 
-headerabout:
+about:
   en: "About"
   bg: "За нас"
 
-headersolution:
-  en: "Solution"
-  bg: "Решение"
+product:
+  en: "Product"
+  bg: "Продукт"
 
-headercontactus:
+services:
+  en: "Services"
+  bg: "Услуги"
+
+contactush:
   en: "Contact Us"
   bg: "Контакти"
 
-headerblog:
+blog:
   en: "Blog"
   bg: "Блог"
 
@@ -115,6 +119,43 @@ sellbettersubtitle:
 sellbettertext:
   en: "Having the insights who your customers are, what they like and what they don't, you will be able to organize and present your goods in the most attractive way based on the customer preferences. Offer goods that they are willing to buy, and this is going to increase your incomes!"
   bg: "Опознавайки клиентите си, какво харесват и какво не, вие ще можете да организирате продуктите си по най-атрактивният начин спрямо предпочитанията на всеки клиент. Започнете да предлагате продукти, които клиентите ви наистина искат да купуват!"
+
+# SERVICES
+servicestitle:
+  en: "Services"
+  bg: "Услуги"
+
+servicessubtitle:
+  en: "You've got the idea, we've got the technology!"
+  bg: "Вие имате идея, ние имаме технология!"
+
+conception:
+  en: "CONCEPTION"
+  bg: "КОНЦЕПЦИЯ"
+
+conceptiontext:
+  en: "Iterative process that includes design the flow and builds the prototype"
+  bg: "Итеративен процес, включващ, дизайн и изработка на прототип"
+
+development:
+  en: "DEVELOPMENT"
+  bg: "РАЗРАБОТКА"
+
+developmenttext:
+  en: "The phase where the prototype becomes a real, fully functional Facebook Messanger chatbot"
+  bg: "Фазата през която, прототипът се превръща в напълно функционален Facebook Messanger чатбот"
+
+hosting:
+  en: "HOSTING & SUPPORT"
+  bg: "ИНСТАЛАЦИЯ И ПОДДРЪЖКА"
+
+hostingtext:
+  en: "Hosting and configuration of the chatbot and our promise that we will always be next to you"
+  bg: "Инсталация и конфигурация на чатбота и нашето обещание за помощ, винаги, когато имате нужда"
+
+contactusbutton:
+  en: "Contact Us"
+  bg: "Пишете ни"
 
 # CALL TO ACTION
 calltoactiontitle:

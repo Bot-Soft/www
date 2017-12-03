@@ -93,6 +93,41 @@
   </div>
 </section>
 
+<section id="service">
+  <div class="container">
+    <div class="row">
+      <div class="section-title">
+        <h2>{{site.servicestitle[page.language]}}</h2>
+        <p>{{site.servicessubtitle[page.language]}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <i class="icon ion-ios-list-outline"></i>
+          <h4>{{site.conception[page.language]}}</h4>
+          <p>{{site.conceptiontext[page.language]}}</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <i class="ion-ios-color-wand-outline"></i>
+          <h4>{{site.development[page.language]}}</h4>
+          <p>{{site.developmenttext[page.language]}}</p>
+        </div>
+      </div>
+      <div class="col-sm-12 col-md-4">
+        <div class="service-item">
+          <i class="ion-ios-gear-outline"></i>
+          <h4>{{site.hosting[page.language]}}</h4>
+          <p>{{site.hostingtext[page.language]}}</p>
+        </div>
+      </div>
+    </div>
+    <a href="#contact-form" onclick='mixpanel.track("Contact us button clicked from services")' class="btn btn-call-to-action">{{site.contactusbutton[page.language]}}</a>
+  </div>
+</section>
+
 <section id="call-to-action">
   <div class="container">
     <div class="row">
@@ -100,7 +135,7 @@
         <div class="block">
           <h2>{{site.calltoactiontitle[page.language]}}</h2>
           <p>{{site.calltoactiontext[page.language]}}</p>
-          <a class="fb-send-to-messenger" messenger_app_id="498860363814397" page_id="1633262150079201" data-ref color="white" size="xlarge"></a>
+          <a class="fb-send-to-messenger" style="margin-left: 80px;" messenger_app_id="498860363814397" page_id="1633262150079201" data-ref color="white" size="xlarge"></a>
         </div>
       </div>
     </div>
