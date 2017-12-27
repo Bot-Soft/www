@@ -16,7 +16,7 @@ keep_files:
 # Site settings
 title: BotSoft
 subtitle: "Chatbot Solution for Your Business"
-url: "http://botsoft.ai"
+url: "https://botsoft.ai"
 baseurl: ""
 cover: "/img/placeit8.jpg"
 logo: "/img/logo.png"
@@ -192,5 +192,5 @@ sendbutton:
   bg: "Изпрати"
 
 tryforfree:
-  en: "Try for Free"
+  en: "Start Demo"
   bg: "Изпробвайте"
