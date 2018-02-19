@@ -1,4 +1,4 @@
-{% include header.html %} 
+{% include header.html %}
 
 <section id="slider">
   <div class="container">
@@ -6,8 +6,11 @@
       <div class="col-md-7 col-md-offset-6">
         <div class="block title">
           <h1 class="animated fadeInUp">{{site.header[page.language]}}</h1>
-          <p class="animated fadeInUp">{{site.subheader[page.language]}}<br /><br />
-            <a href="#solution" onclick='mixpanel.track("Learn More button clicked")' class="btn btn-call-to-action">{{site.learnmorebtn[page.language]}}</a>
+          <p class="animated fadeInUp">{{site.subheader[page.language]}}
+            <br />
+            <br />
+            <a href="https://admin.botsoft.ai" onclick='mixpanel.track("Install Bot")' class="btn btn-call-to-action">{{site.setupbtn[page.language]}}</a>
+            <a href="#solution" onclick='mixpanel.track("Learn More button clicked")' class="btn btn-try">{{site.learnmorebtn[page.language]}}</a>
           </p>
         </div>
       </div>
@@ -135,7 +138,8 @@
         <div class="block">
           <h2>{{site.calltoactiontitle[page.language]}}</h2>
           <p>{{site.calltoactiontext[page.language]}}</p>
-          <div class="fb-send-to-messenger" style="margin-left: 80px;" messenger_app_id="498860363814397" page_id="1633262150079201" color="white" size="xlarge"></div>
+          <div class="fb-send-to-messenger" style="margin-left: 80px;" messenger_app_id="498860363814397" page_id="1633262150079201"
+            color="white" size="xlarge"></div>
         </div>
       </div>
     </div>

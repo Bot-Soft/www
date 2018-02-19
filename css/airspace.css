@@ -201,7 +201,6 @@ font header .navbar-default .navbar-nav li a:hover {
     background-color: #ffffff00;
     font-size: 15px;
     color: #fff;
-    margin-top: 30px;
 }
 #slider .title {
     -webkit-box-sizing: content-box;
@@ -215,6 +214,7 @@ font header .navbar-default .navbar-nav li a:hover {
     text-shadow: 3px 3px 28px rgba(84, 84, 84, 0.91);
     text-align: left;
 }
+
 /*--
    wrapper Start
  --*/

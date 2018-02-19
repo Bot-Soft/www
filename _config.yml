@@ -72,6 +72,10 @@ learnmorebtn:
   en: "Learn More"
   bg: "Научете повече"
 
+setupbtn:
+  en: "Setup Your Bot"
+  bg: "Създайте Чатбот"
+
 # ABOUT
 missionsummary:
   en: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 billion</a> people worldwide can reach your business with one click via <a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'

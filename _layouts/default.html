@@ -17,6 +17,16 @@
         version: 'v2.11'
       });
       FB.AppEvents.logPageView();
+
+      FB.Event.subscribe("auth.statusChange", response => {
+        if (response.status === "connected") {
+          if (response.authResponse) {
+            window.location.replace("http://localhost:4200");
+          } else {
+           
+          }
+        }
+      });
     };
 
     (function (d, s, id) {
