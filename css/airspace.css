@@ -111,6 +111,14 @@ font header .navbar-default .navbar-nav li a:hover {
         font-size: 15px;
         color: #ffffff;
     }
+    #slider .btn-try {
+        padding: 15px 35px;
+        font-weight: bold;
+        border: 1px solid #fff;
+        background-color: #ffffff00;
+        font-size: 15px;
+        color: #fff;
+    }
     #slider:before {
         content: "";
         position: absolute;
@@ -159,6 +167,14 @@ font header .navbar-default .navbar-nav li a:hover {
         font-size: 15px;
         color: #ffffff;
     }
+    #slider .btn-try {
+        padding: 15px 35px;
+        font-weight: bold;
+        border: 1px solid #fff;
+        background-color: #ffffff00;
+        font-size: 15px;
+        color: #fff;
+    }
     #slider:before {
         content: "";
         position: absolute;
@@ -194,14 +210,7 @@ font header .navbar-default .navbar-nav li a:hover {
     color: #e3e3e4;
     background-color: #ffffff00;
 }
-#slider .btn-try {
-    padding: 15px 35px;
-    font-weight: bold;
-    border: 1px solid #fff;
-    background-color: #ffffff00;
-    font-size: 15px;
-    color: #fff;
-}
+
 #slider .title {
     -webkit-box-sizing: content-box;
     -moz-box-sizing: content-box;
