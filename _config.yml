@@ -40,8 +40,8 @@ descriptions:
 # HEADER AND FOOTER
 
 about:
-  en: "About"
-  bg: "За нас"
+  en: "Mission"
+  bg: "Мисия"
 
 product:
   en: "Product"
@@ -61,19 +61,19 @@ blog:
 
 # SLIDER
 header:
-  en: "CHATBOT SOLUTION<br />FOR YOUR BUSINESS"
-  bg: "ЧАТБОТ РЕШЕНИЯ<br />ЗА ВАШИЯ БИЗНЕС"
+  en: "CHATBOT TEMPLATES<br />FOR YOUR BUSINESS"
+  bg: "ЧАТБОТ ШАБЛОНИ<br />ЗА ВАШИЯ БИЗНЕС"
 
 subheader:
-  en: "Establish highly profitable sales channel<br />that people love"
-  bg: "Създайте канал за продажба, който вашите клиенти обичат"
+  en: "Build Facebook Meesanger chatbot that solves real business problems with NO coding"
+  bg: "Създайте лесно Facebook Meesanger чатбот който решава реален бизнес проблем"
 
 learnmorebtn:
   en: "Learn More"
   bg: "Научете повече"
 
 setupbtn:
-  en: "Setup Your Bot"
+  en: "Create Chatbot"
   bg: "Създайте Чатбот"
 
 # ABOUT
@@ -167,8 +167,8 @@ calltoactiontitle:
   bg: "Клиентите, до които искате да достигнете вече използват Facebook Messanger"
 
 calltoactiontext:
-  en: "Now people won't need to download an app to interact with your business.<br /> We are going to build your chatbot and enable people to instantly reach your business on whichever device and platform they use."
-  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашия бизнес.<br /> Ние ще създадем за вас чатбот, който да позволи на вашите клиенти да комуникират с бизнесът ви в реално време от всички възможни устройства и платформи."
+  en: "Now people won't need to download an app to interact with your business.<br /> Build your chatbot and enable people to instantly reach your business on whichever device and platform they use."
+  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашия бизнес.<br /> Създайте чатбот, който да позволи на вашите клиенти да комуникират с бизнесът ви в реално време от всички възможни устройства и платформи."
 
 # CONTACT US
 contactus:
