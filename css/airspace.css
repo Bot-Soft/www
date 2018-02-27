@@ -268,6 +268,58 @@ font header .navbar-default .navbar-nav li a:hover {
     font-size: 15px;
     color: #ffffff;
 }
+
+
+.template-container {
+    padding: 100px 20px;
+}
+.template-container .block .name {
+    text-align: center;
+    font-weight: bold;
+    padding-left: 40px;
+    font-size: 20px;
+}
+.template-container .block .position {
+    font-weight: normal;
+    font-style: italic;
+    font-size: 14px;
+}
+.template-container .block h2 {
+    padding-top: 35px;
+    line-height: 27px;
+    margin: 0;
+}
+.template-container .block p {
+    color: #7b7b7b;
+    padding-top: 20px;
+}
+.template-container .block img {
+    padding-left: 40px;
+    width: 100%;
+}
+.template-container .section-title {
+    margin-bottom: 0px;
+}
+.template-container .section-title p {
+    padding-top: 20px;
+}
+.template-container .btn-create-bot {
+    padding: 15px 35px;
+    margin-top: 20px;
+    border: none;
+    background-color: rgba(0, 132, 255, 0.8);
+    font-size: 15px;
+    color: #ffffff;
+}
+.template-container .btn-preview {
+    padding: 15px 35px;
+    margin-top: 20px;
+    border: rgba(0, 132, 255, 0.8) solid 1px;
+    background-color: #ffffff;
+    font-size: 15px;
+    color: rgba(0, 132, 255, 0.8);
+}
+
 /*--
    Solution Start
  --*/
