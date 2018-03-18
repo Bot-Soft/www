@@ -272,6 +272,7 @@ font header .navbar-default .navbar-nav li a:hover {
 
 .template-container {
     padding: 100px 25px;
+    border-bottom: #ebeef4 solid 1px;
 }
 .template-container .block .name {
     text-align: center;
