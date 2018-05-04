@@ -5,11 +5,14 @@
     <div class="row">
       <div class="col-md-7 col-md-offset-6">
         <div class="block title">
-          <h1 class="animated fadeInUp">{{site.header[page.language]}}</h1>
-          <p class="animated fadeInUp">Build Facebook Messenger chatbot that solves real business problems with NO coding
+          <h1 class="animated fadeInUp">CHATBOT
+            <span style="color:#fefefeb8">FOR</span>
+            <br />
+            <span style="color:#fefefeb8">YOUR</span> RESTAURANT</h1>
+          <p class="animated fadeInUp">BotSoft enables restaurant owners to acquire new customers from Facebook
             <br />
             <br />
-            <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template")' class="btn btn-call-to-action">Select Template</a>
+            <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template")' class="btn btn-call-to-action">Get Started Free</a>
             <a href="#solution" onclick='mixpanel.track("Learn More button clicked")' class="btn btn-try">Learn More</a>
           </p>
         </div>
@@ -24,10 +27,10 @@
 
       <div class="col-md-12">
         <div class="feature-item">
-          <h3>{{site.missionsummary[page.language]}}</h3>
-          <p>The
+          <h3 id="metrics"></h3>
+          <!-- <p>The
             <b>BotSoft</b> mission is to enable small and midsize businesses to take advantage of that enormous potential
-            <br />and establish highly profitable sales channel that people love.</p>
+            <br />and establish highly profitable sales channel that people love.</p> -->
         </div>
       </div>
     </div>
@@ -45,12 +48,20 @@
       <div class="col-md-3 col-sm-12">
         <div class="block">
           <div class="section-title">
-            <h2>RESTAURANT MENU TEMPLATE
-              <br />+ ADMIN</h2>
-            <p>1.0.1</p>
+            <h2>RESTAURANT MENU
+              <p>1.0.1</p>
           </div>
-          <p>Interactive approach for the presentation of your menu. Attract new customers by allowing sharing of your meals
-            in Facebook. Increase your customer's retention rate by keeping them informed of any deals and new meals.</p>
+          <ul>
+            <li>
+              <p>Interactive approach for the presentation of your menu.</p>
+            </li>
+            <li>
+              <p>Attract new customers by allowing sharing of your meals in Facebook.</p>
+            </li>
+            <li>
+              <p>Increase your customer's retention rate by keeping them informed of any deals and new meals.</p>
+            </li>
+          </ul>
           <p>
             <a href="https://facebook.com/commerce/products/1421896997916068">
               <i style="font-size: 25px;" class="icon ion-android-bulb"></i> Feedback & Feature Requests
@@ -65,7 +76,7 @@
   </div>
 </section>
 
-<section id="botsoft-tourist-agency" class="template-container">
+<!-- <section id="botsoft-tourist-agency" class="template-container">
   <div>
     <div class="row">
       <div class="col-md-8 col-sm-12">
@@ -95,7 +106,7 @@
       </div>
     </div>
   </div>
-</section>
+</section> -->
 
 <section id="service">
   <div class="container">
@@ -137,8 +148,10 @@
     <div class="row">
       <div class="col-md-12">
         <div class="block">
-          <h2>{{site.calltoactiontitle[page.language]}}</h2>
-          <p>{{site.calltoactiontext[page.language]}}</p>
+          <h2>The customers you want to reach already use Facebook Messenger</h2>
+          <p>Now people won't need to download an app to interact with your restaurant.
+            <br /> Create a chatbot and enable people to instantly reach your restaurant on whichever device and platform they
+            use.</p>
           <div class="fb-send-to-messenger" style="margin-left: 80px;" messenger_app_id="498860363814397" page_id="1633262150079201"
             color="white" size="xlarge"></div>
         </div>
@@ -149,13 +162,13 @@
 
 <section id="pricing">
   <div class="container">
-      <div class="section-title" style="text-align:center;">
-          <h2>Pricing</h2>
-          <p>Each connected facebook page is billed as a separate account.</p>
-        </div>
+    <div class="section-title" style="text-align:center;">
+      <h2>Pricing</h2>
+      <p>Each connected facebook page is billed as a separate account.</p>
+    </div>
     <div class="row pricing-table col-md-12">
 
-      <div class="pricing-option col-md-4">
+      <div class="pricing-option col-md-6">
         <i class="ion-ios-person-outline"></i>
         <h1>BASIC</h1>
         <hr />
@@ -210,39 +223,31 @@
         <h1>PRO</h1>
         <hr />
         <ul>
-            <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-infinite-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">Unlimited Subscribers</div>
+          <li>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="ion-ios-infinite-outline"></i>
               </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-infinite-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">Unlimited Messages</div>
+              <div class="col-md-9 feature-text">Unlimited Subscribers</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="ion-ios-infinite-outline"></i>
               </div>
-            </li>
-            <!-- <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-star-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">Basic + Pro Templates</div>
+              <div class="col-md-9 feature-text">Unlimited Messages</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="ion-ios-paw-outline"></i>
               </div>
-            </li> -->
-            <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-paw-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">No BotSoft Branding</div>
-              </div>
-            </li>
-          </ul>
+              <div class="col-md-9 feature-text">No BotSoft Branding</div>
+            </div>
+          </li>
+        </ul>
         <hr />
         <div class="price">
           <div class="front">
@@ -251,49 +256,49 @@
             </span>/month
           </div>
           <div class="back">
-            <a href="/pro" class="button">Contact Us</a>
+            <a href="#botsoft-menu-all" class="button">Start NOW</a>
           </div>
         </div>
       </div>
 
-      <div class="pricing-option col-md-4">
+      <div class="pricing-option col-md-6">
         <i class="ion-ios-briefcase-outline" style="font-size: 60px;"></i>
         <h1>BUSINESS</h1>
         <hr />
         <ul>
-            <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-infinite-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">Unlimited Subscribers</div>
+          <li>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="ion-ios-infinite-outline"></i>
               </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-infinite-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">Unlimited Messages</div>
+              <div class="col-md-9 feature-text">Unlimited Subscribers</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="ion-ios-infinite-outline"></i>
               </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-color-wand-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">Custom Development</div>
+              <div class="col-md-9 feature-text">Unlimited Messages</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="ion-ios-color-wand-outline"></i>
               </div>
-            </li>
-            <li>
-              <div class="row">
-                <div class="col-md-1">
-                  <i class="ion-ios-paw-outline"></i>
-                </div>
-                <div class="col-md-9 feature-text">No BotSoft Branding</div>
+              <div class="col-md-9 feature-text">Custom Development</div>
+            </div>
+          </li>
+          <li>
+            <div class="row">
+              <div class="col-md-1">
+                <i class="ion-ios-paw-outline"></i>
               </div>
-            </li>
-          </ul>
+              <div class="col-md-9 feature-text">No BotSoft Branding</div>
+            </div>
+          </li>
+        </ul>
         <hr />
         <div class="price">
           <div class="front">
@@ -307,5 +312,17 @@
       </div>
     </div>
 </section>
+
+<script>
+  var valuePropositions = [
+    '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank" class="counter"> 1300000000</a> people worldwide can reach your restaurant via Facebook Messenger.',
+    '<a href="http://thesocialmediamonthly.com/why-your-restaurant-needs-social-media/" target="_blank">A study</a> found <b class="counter">75</b>% of consumers have used Facebook to decide on what restaurant to eat at.',
+    'More than half (<a href="https://blog.hubspot.com/blog/tabid/6307/bid/30239/71-More-Likely-to-Purchase-Based-on-Social-Media-Referrals-Infographic.aspx" target="_blank" class="counter">58</a>%) of Facebook users expect some special promotion or offer for becoming a fan of a restaurant page.'
+  ];
+
+  var valuePropositionsIdx = Math.floor(Math.random() * valuePropositions.length);;
+
+  document.getElementById("metrics").innerHTML = valuePropositions[valuePropositionsIdx];
+</script>
 
 {% include footer.html %}
