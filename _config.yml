@@ -15,10 +15,10 @@ keep_files:
 
 # Site settings
 title: BotSoft
-subtitle: "Chatbot Solution for Your Business"
+subtitle: "Chatbot for Your Restaurant"
 url: "https://botsoft.ai"
 baseurl: ""
-cover: "/img/placeit8.jpg"
+cover: "/img/placeit9.jpeg"
 logo: "/img/logo.png"
 
 # Build settings
