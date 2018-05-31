@@ -63,12 +63,17 @@
 
   // When the user clicks the button, open the modal 
   btn.onclick = function () {
-    modal.style.display = "block";
+    startVideo();
   }
 
   function stopVideo(){
     modal.style.display = "none";
     youtubeVideo.contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+  }
+
+  function startVideo(){
+    modal.style.display = "block";
+    youtubeVideo.contentWindow.postMessage('{"event":"command","func":"' + 'playVideo' + '","args":""}', '*');
   }
 
   // When the user clicks anywhere outside of the modal, close it
