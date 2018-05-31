@@ -2,20 +2,19 @@
 
 <!-- Load Facebook SDK for JavaScript -->
 <div id="fb-root"></div>
-<script>(function(d, s, id) {
-  var js, fjs = d.getElementsByTagName(s)[0];
-  if (d.getElementById(id)) return;
-  js = d.createElement(s); js.id = id;
-  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
-  fjs.parentNode.insertBefore(js, fjs);
-}(document, 'script', 'facebook-jssdk'));</script>
+<script>
+  (function (d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s);
+    js.id = id;
+    js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));
+</script>
 
 <!-- Your customer chat code -->
-<div class="fb-customerchat"
-  attribution="setup_tool"
-  page_id="1647350768690155"
-  theme_color="#0084ff"
-  logged_in_greeting="Let us help with your menu!"
+<div class="fb-customerchat" attribution="setup_tool" page_id="1647350768690155" theme_color="#0084ff" logged_in_greeting="Let us help with your menu!"
   logged_out_greeting="Let us help with your menu!">
 </div>
 
@@ -32,13 +31,53 @@
             <br />
             <br />
             <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template")' class="btn btn-call-to-action">Get Started Free</a>
-            <a href="#solution" onclick='mixpanel.track("Learn More button clicked")' class="btn btn-try">Learn More</a>
+            <a target="_blank" id="watchVideoBtn" onclick='mixpanel.track("Watch Video button clicked")' class="btn btn-try">Watch Video</a>
           </p>
         </div>
       </div>
     </div>
   </div>
 </section>
+
+<!-- The Modal -->
+<div id="youtubePlayer" class="modal">
+
+  <!-- Modal content -->
+  <div class="modal-content" style="text-align: center;">
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe id="youtube-video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/ByH6H6AbOJs?enablejsapi=1&version=3&playerapiid=ytplayer"
+        frameborder="0" allowfullscreen="true" allowscriptaccess="always"></iframe>
+    </div>
+    <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template");stopVideo();' class="btn btn-create-bot pulse">Get Started Free</a>
+  </div>
+  
+</div>
+
+<script>
+  // Get the modal
+  var modal = document.getElementById('youtubePlayer');
+  var youtubeVideo = document.getElementById('youtube-video');
+
+  // Get the button that opens the modal
+  var btn = document.getElementById("watchVideoBtn");
+
+  // When the user clicks the button, open the modal 
+  btn.onclick = function () {
+    modal.style.display = "block";
+  }
+
+  function stopVideo(){
+    modal.style.display = "none";
+    youtubeVideo.contentWindow.postMessage('{"event":"command","func":"' + 'pauseVideo' + '","args":""}', '*');
+  }
+
+  // When the user clicks anywhere outside of the modal, close it
+  window.onclick = function (event) {
+    if (event.target == modal) {
+      stopVideo();
+    }
+  }
+</script>
 
 <section id="solution">
   <div class="container">
@@ -170,7 +209,8 @@
           <h2>The customers you want to reach already use Facebook Messenger</h2>
           <p>Now people won't need to download an app to interact with your restaurant.
             <br /> Create a chatbot and enable people to instantly reach your restaurant on whichever device and platform they
-            use.</p>
+            use.
+          </p>
           <div class="fb-send-to-messenger" style="margin-left: 80px;" messenger_app_id="498860363814397" page_id="1633262150079201"
             color="white" size="xlarge"></div>
         </div>
