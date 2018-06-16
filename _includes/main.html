@@ -30,8 +30,8 @@
           <p class="animated fadeInUp">BotSoft enables restaurant owners to acquire new customers from Facebook
             <br />
             <br />
-            <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template")' class="btn btn-call-to-action">Get Started Free</a>
-            <a target="_blank" id="watchVideoBtn" onclick='mixpanel.track("Watch Video button clicked")' class="btn btn-try">Watch Video</a>
+            <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template");ga("send", "pageview", "/landing-page/select-template");' class="btn btn-call-to-action">Get Started Free</a>
+            <a target="_blank" id="watchVideoBtn" onclick='mixpanel.track("Watch Video button clicked");ga("send", "pageview", "/landing-page/watch-video");' class="btn btn-try">Watch Video</a>
           </p>
         </div>
       </div>
@@ -48,7 +48,7 @@
       <iframe id="youtube-video" class="embed-responsive-item" width="560" height="315" src="https://www.youtube.com/embed/JGqOONThgNs?enablejsapi=1&version=3&playerapiid=ytplayer"
         frameborder="0" allowfullscreen="true" allowscriptaccess="always"></iframe>
     </div>
-    <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template");stopVideo();' class="btn btn-create-bot pulse">Get Started Free</a>
+    <a href="#botsoft-menu-all" onclick='mixpanel.track("Select Template");stopVideo();ga("send", "pageview", "/landing-page/watch-video");' class="btn btn-create-bot pulse">Get Started Free</a>
   </div>
   
 </div>
