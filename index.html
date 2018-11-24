@@ -1,8 +1,124 @@
---- 
-layout: page 
-title: BotSoft | Chatbot for Your Restaurant 
-description: BotSoft enables restaurant owners to acquire new customers from Facebook 
-permalink: / 
-language: en
 ---
-{% include main.html %}
+layout: default
+title: BotSoft
+---
+<header>
+	<div class="container">
+		<div class="column">
+			<div>
+				<h1 class="editable">{{ site.data.company.moto }}</h1>
+				<p class="editable">{{ site.data.company.moto_subtext }}</p>
+				<div class="button">
+					<a href="#mission">Learn More</a>
+				</div>
+			</div>
+		</div>
+		<div class="column">
+			<img src="{{ baseurl }}/images/landing-banner.png" alt="store">
+		</div>
+	</div>
+</header>
+
+<div class="container">
+	<!-- <h2 class="editable" style="text-align: center;">Why you will sell better with ChatStore?</h2> -->
+
+	<ul class="thirds">
+		<li>
+			<div class="image">
+				<ion-icon class="icon" name="code"></ion-icon>
+			</div>
+			<h3 class="editable">Develop in IDE</h3>
+			<p class="editable">Develop chatbots in IDE of your choice.</p>
+		</li>
+
+		<li>
+			<div class="image">
+				<ion-icon class="icon" name="logo-github"></ion-icon>
+			</div>
+			<h3 class="editable">Maintain in Git</h3>
+			<p class="editable">Collaborate with other developers and keep versions of your chatbot.</p>
+		</li>
+
+		<li>
+			<div class="image">
+				<ion-icon class="icon" name="cloud-upload"></ion-icon>
+				</ion-icon>
+			</div>
+			<h3 class="editable">Host in AWS</h3>
+			<p class="editable">Reliable hosting for your chatbot in AWS. Command line interface for deployment.</p>
+		</li>
+	</ul>
+</div>
+
+<div id="mission" class="container">
+	<div class="columns">
+		<div>
+			<img src="{{ baseurl }}/images/mission.png" alt="Mission">
+		</div>
+		<div>
+			<h2 class="editable">Our Mission</h2>
+
+			<p class="editable">{{ site.data.company.mission_long }}</p>
+		</div>
+	</div>
+</div>
+
+<!-- <div class="container">
+	<hr>
+	<blockquote>
+		<p class="quote editable">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
+		<div class="attribute">
+			<p class="meta">
+				<span class="image"><img class="editable" src="{{ site.baseurl }}/images/wooly.jpg" alt="Wooly"></span>
+				<span class="author editable"><strong>Wooly McBaa</strong></span>
+			</p>
+		</div>
+	</blockquote>
+</div> -->
+
+<div class="darker">
+	<div class="container">
+		<h2 class="editable">Subscribe</h2>
+		<p class="editable" style="text-align: center;">Sign up to receive the latest news and progress of the project.</p>
+		<META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
+		<form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads74775000000090003 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
+		 accept-charset='UTF-8'>
+
+			<div class="col-md-6 col-sm-12">
+
+				<input type='text' style='display:none;' name='xnQsjsdp' value='b6930f3f4e7c7fdc66d8b890e3aa6bda4f863053b11fefd852467768fa2307b8' />
+				<input type='hidden' name='zc_gad' id='zc_gad' value='' />
+				<input type='text' style='display:none;' name='xmIwtLD' value='964ea99c0abed63829d6ab3c7949e8c3d6471b76fa50929abd27999a3e3989ff' />
+				<input type='text' style='display:none;' name='actionType' value='TGVhZHM=' />
+
+				<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;bot-soft.github.io&#x2f;www&#x2f;index' />
+
+			</div>
+
+			<input maxlength='100' name='Email' placeholder="Email" type="text" class="form-control">
+			<input type="submit" value="Sign up" />
+
+		</form>
+	</div>
+</div>
+
+<!-- <div>
+	<div class="container">
+		<h2 class="editable">Updates</h2>
+		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
+		<div class="posts">
+			{% for post in site.posts %}
+				<div class="post">
+					<div class="image" style="background-image: url({{ post.featured_image}})"></div>
+					<div class="post-content">
+						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
+						<h3>{{ post.title }}</h3>
+
+						{{ post.content }}
+						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
+					</div>
+				</div>
+			{% endfor %}
+		</div>
+	</div>
+</div> -->

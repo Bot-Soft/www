@@ -1,200 +1,75 @@
+# ----
+# Site
+
+title: Cause Template
+url: https://clean-oryx.cloudvent.net
+baseurl:
+google_analytics_key:
+
+# Values for the jekyll-seo-tag gem (https://github.com/jekyll/jekyll-seo-tag)
+logo: /siteicon.png
+description: Jekyll template with example content for a not-for-profit organisation.
+author:
+  name:
+  email:
+  twitter: # twitter username without the @ symbol
+social:
+  name: Cause Template
+  links:
+    - https://github.com/CloudCannon/cause-jekyll-template
+
+# -----
+# Build
+
+timezone: Etc/UTC
+
+collections:
+  staff_members:
+    _hide_content: true
+    _options:
+      image:
+        width: 250
+        height: 250
+
+permalink: pretty
+
+defaults:
+  -
+    scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      _options:
+        content:
+          width: 1880
+          height: 1880
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+
+donation_embed: '<script src="https://donorbox.org/widget.js" type="text/javascript"></script><iframe src="https://donorbox.org/embed/give-sheep-the-vote?hide_donation_meter=true" height="685px" width="100%" style="max-width:425px; min-width:310px" seamless="seamless" id="dbox-form-embed" name="donorbox" frameborder="0" scrolling="no"></iframe>'
+newsletter_action: "//your-mailchimp-action-url.com"
+
+plugins:
+  - jekyll-sitemap
+  - jekyll-seo-tag
 
 exclude:
-  - "/vendor/"
-  - "Gemfile"
-  - "Gemfile.lock"
-  - "README.md"
-  - "LICENSE.md"
-  - "*.gemspec"
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - LICENCE
 
-keep_files:
-  - "CNAME"
-  - ".git"
-  - ".gitignore"
+# -----------
+# CloudCannon
 
-
-# Site settings
-title: BotSoft
-subtitle: "Chatbot for Your Restaurant"
-url: "https://botsoft.ai"
-baseurl: ""
-cover: "/img/placeit9.jpeg"
-logo: "/img/logo.png"
-
-# Build settings
-markdown: kramdown
-
-# Google analytics
-ga_tracking_id: "UA-109577504-1"
-
-# Category descriptions (for archive pages)
-descriptions:
-  - cat: jekyll
-    desc: "Posts describing Jekyll setup techniques."
-
-  - cat: dummy
-    desc: "Just some placeholder posts, lorem ipsum and the rest."
-
-# Multylingual
-
-# HEADER AND FOOTER
-
-about:
-  en: "Mission"
-  bg: "Мисия"
-
-product:
-  en: "Product"
-  bg: "Продукт"
-
-services:
-  en: "Services"
-  bg: "Услуги"
-
-contactush:
-  en: "Contact Us"
-  bg: "Контакти"
-
-blog:
-  en: "Blog"
-  bg: "Блог"
-
-# SLIDER
-header:
-  en: "CHATBOT TEMPLATES<br />FOR YOUR BUSINESS"
-  bg: "ЧАТБОТ ШАБЛОНИ<br />ЗА ВАШИЯ БИЗНЕС"
-
-subheader:
-  en: "Build Facebook Meesanger chatbot that solves real business problems with NO coding"
-  bg: "Създайте лесно Facebook Meesanger чатбот който решава реален бизнес проблем"
-
-learnmorebtn:
-  en: "Learn More"
-  bg: "Научете повече"
-
-setupbtn:
-  en: "Create Chatbot"
-  bg: "Създайте Чатбот"
-
-# ABOUT
-missionsummary:
-  en: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 billion</a> people worldwide can reach your business with one click via <a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
-  bg: '<a href="https://www.facebook.com/messenger/photos/a.882538591865822.1073741828.602814669838217/1530168793769462/?type=3&theater" target="_blank">1.3 милиарда</a> човека могат да се свържат с вашия бизнес с един клик чрез <a href="https://messenger.fb.com/" target="_blank">Facebook Messenger</a>'
-
-missiondetails:
-  en: "The <b>BotSoft</b> mission is to enable businesses to take advantage of that enormous potential <br />and establish highly profitable sales channel that people love."
-  bg: "Нашата мисия е да помогнем на бизнеса да използва този огромен потенциал<br />и да създаде канал за продажби, който хората обичат."
-
-# SELL
-sell:
-  en: "SELL"
-  bg: "Продавай"
-
-sellsubtitle:
-  en: "Expand your market share" 
-  bg: "Увеличете пазарният си дял"
-
-selltext:
-  en: "Think about how many customers will order from you, just because your business utilize Facebook Messanger as a sales channel. How cool is that! People are going to love it!"
-  bg: "Замислете се колко хора биха си поръчали от вас, само защото използвате Facebooк Messanger като канал за продажба. Това е яко! Вашите клиенти ще го изпробват!"
-
-# GET INSIGHTS
-getinsights:
-  en: "Get Insights"
-  bg: "Опознай"
-
-getinsightssubtitle:
-  en: "Reduce your expenses"
-  bg: "Намалете разходите си"
-
-getinsightstext:
-  en: "Do your customers like your products? Identify what your customers are willing to buy and what they don't. Reduce your expenses for something that customers won't value."
-  bg: "Вашите клиенти харесват ли продуктите, които продавате? Идентифицирайте, какво клиентите ви купуват и какво не. Намалете разходите за продукти, които клиентите ви не купуват."
-
-# SELL BETTER
-sellbetter:
-  en: "Sell Better"
-  bg: "Продавай по-добре"
-
-sellbettersubtitle:
-  en: "Increase your revenue"
-  bg: "Увеличете печалбата си"
-
-sellbettertext:
-  en: "Having the insights who your customers are, what they like and what they don't, you will be able to organize and present your goods in the most attractive way based on the customer preferences. Offer goods that they are willing to buy, and this is going to increase your incomes!"
-  bg: "Опознавайки клиентите си, какво харесват и какво не, вие ще можете да организирате продуктите си по най-атрактивният начин спрямо предпочитанията на всеки клиент. Започнете да предлагате продукти, които клиентите ви наистина искат да купуват!"
-
-# SERVICES
-servicestitle:
-  en: "Services"
-  bg: "Услуги"
-
-servicessubtitle:
-  en: "You've got the idea, we've got the technology!"
-  bg: "Вие имате идея, ние имаме технология!"
-
-conception:
-  en: "CONCEPTION"
-  bg: "КОНЦЕПЦИЯ"
-
-conceptiontext:
-  en: "Iterative process that includes design the flow and builds the prototype"
-  bg: "Итеративен процес, включващ, дизайн и изработка на прототип"
-
-development:
-  en: "DEVELOPMENT"
-  bg: "РАЗРАБОТКА"
-
-developmenttext:
-  en: "The phase where the prototype becomes a real, fully functional Facebook Messanger chatbot"
-  bg: "Фазата през която, прототипът се превръща в напълно функционален Facebook Messanger чатбот"
-
-hosting:
-  en: "HOSTING & SUPPORT"
-  bg: "ИНСТАЛАЦИЯ И ПОДДРЪЖКА"
-
-hostingtext:
-  en: "Hosting and configuration of the chatbot and our promise that we will always be next to you"
-  bg: "Инсталация и конфигурация на чатбота и нашето обещание за помощ, винаги, когато имате нужда"
-
-contactusbutton:
-  en: "Contact Us"
-  bg: "Пишете ни"
-
-# CALL TO ACTION
-calltoactiontitle:
-  en: "The customers you want to reach already use Facebook Messanger"
-  bg: "Клиентите, до които искате да достигнете вече използват Facebook Messanger"
-
-calltoactiontext:
-  en: "Now people won't need to download an app to interact with your business.<br /> Build your chatbot and enable people to instantly reach your business on whichever device and platform they use."
-  bg: "Не е необходимо хората да свалят и инсталират мобилно приложение за да се свържат с вашия бизнес.<br /> Създайте чатбот, който да позволи на вашите клиенти да комуникират с бизнесът ви в реално време от всички възможни устройства и платформи."
-
-# CONTACT US
-contactus:
-  en: "CONTACT US"
-  bg: "СВЪРЖЕТЕ СЕ С НАС"
-
-yourname:
-  en: "Your Name"
-  bg: "Вашето име"
-
-email:
-  en: "Email Address"
-  bg: "Email Адрес"
-
-company:
-  en: "Company"
-  bg: "Компания"
-
-yourmessage:
-  en: "Your Message"
-  bg: "Вашето съобщение"
-
-sendbutton:
-  en: "Send"
-  bg: "Изпрати"
-
-tryforfree:
-  en: "Start Demo"
-  bg: "Изпробвайте"
+_options:
+  header_background_image:
+    width: 1880
+    height: 1880
+  newsletter_background_image:
+    width: 1880
+    height: 1880
