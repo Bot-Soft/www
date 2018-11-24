@@ -1,8 +1,8 @@
 # ----
 # Site
 
-title: Cause Template
-url: https://clean-oryx.cloudvent.net
+title: BotSoft
+url: https://botsoft.ai
 baseurl:
 google_analytics_key:
 
@@ -14,9 +14,9 @@ author:
   email:
   twitter: # twitter username without the @ symbol
 social:
-  name: Cause Template
+  name: BotSoft
   links:
-    - https://github.com/CloudCannon/cause-jekyll-template
+    - https://botsoft.ai
 
 # -----
 # Build
