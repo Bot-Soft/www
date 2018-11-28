@@ -53,12 +53,24 @@ title: BotSoft
 <div id="mission" class="container">
 	<div class="columns">
 		<div>
-			<img src="{{ baseurl }}/images/mission.png" alt="Mission">
+			<img src="{{ baseurl }}/images/script.png" alt="BotSoft Script">
 		</div>
 		<div>
-			<h2 class="editable">Our Mission</h2>
+			<h2 class="editable">BotSoft Script</h2>
 
-			<p class="editable">{{ site.data.company.mission_long }}</p>
+			<p class="editable">
+				The BotSoft Script is a JSON file for bots definition. Each element in the file represents a block. The key of the block is the block name. The value is the block's steps. The steps support all of the <a href="https://developers.facebook.com/docs/messenger-platform/send-messages">available messages</a> that Facebook Messenger Platform provides. 
+{% highlight JavaScript %}
+...
+
+"welcome": {
+  "steps": ["text": "hello, world!"]
+}
+
+...
+{% endhighlight %} 
+
+			</p>
 		</div>
 	</div>
 </div>
