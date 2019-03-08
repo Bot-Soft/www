@@ -9,7 +9,7 @@ title: BotSoft
 				<h1 class="editable">{{ site.data.company.moto }}</h1>
 				<p class="editable">{{ site.data.company.moto_subtext }}</p>
 				<div class="button">
-					<a href="#mission">Learn More</a>
+					<a href="#docs">Learn More</a>
 				</div>
 			</div>
 		</div>
@@ -20,8 +20,6 @@ title: BotSoft
 </header>
 
 <div class="container">
-	<!-- <h2 class="editable" style="text-align: center;">Why you will sell better with ChatStore?</h2> -->
-
 	<ul class="thirds">
 		<li>
 			<div class="image">
@@ -50,33 +48,23 @@ title: BotSoft
 	</ul>
 </div>
 
-<div id="mission" class="container">
+<div id="docs" class="container">
+	{% for post in site.posts reversed %}
 	<div class="columns">
+		{% if post.categories contains 'docs' %}
 		<div>
-			<img src="{{ baseurl }}/images/script.png" alt="BotSoft Script">
+			<img style="width: 90%; height: auto;" src="{{ baseurl }}{{ post.image }}" alt="{{ post.title }}">
 		</div>
 		<div>
-			<h2 class="editable">BotSoft Script</h2>
+			<h2 class="editable frontpage-title">{{ post.title }}</h2>
+			<span class="frontpage-content">{{ post.excerpt }}</span>
+			<p class="editable learnmore"><a href="{{ post.permalink }}">Learn more</a></p>
+		</div>
 
-			<p class="editable">
-				A JSON objects for bots definition that support all of the available Facebook Messenger Platform <a href="https://developers.facebook.com/docs/messenger-platform/send-messages">messages</a>. 
-			</p>
-		</div>
+		{% endif %}
 	</div>
+	{% endfor %}
 </div>
-
-<!-- <div class="container">
-	<hr>
-	<blockquote>
-		<p class="quote editable">The ultimate measure of a sheep is not where he stands in moments of comfort and convenience, but where he stands at times of challenge and controversy.</p>
-		<div class="attribute">
-			<p class="meta">
-				<span class="image"><img class="editable" src="{{ site.baseurl }}/images/wooly.jpg" alt="Wooly"></span>
-				<span class="author editable"><strong>Wooly McBaa</strong></span>
-			</p>
-		</div>
-	</blockquote>
-</div> -->
 
 <div class="darker">
 	<div class="container">
@@ -103,24 +91,3 @@ title: BotSoft
 		</form>
 	</div>
 </div>
-
-<!-- <div>
-	<div class="container">
-		<h2 class="editable">Updates</h2>
-		<p class="editor-link"><a href="cloudcannon:collections/_posts" class="btn"><strong>&#9998;</strong> Add Update</a></p>
-		<div class="posts">
-			{% for post in site.posts %}
-				<div class="post">
-					<div class="image" style="background-image: url({{ post.featured_image}})"></div>
-					<div class="post-content">
-						<p class="date">{{ post.date | date: '%B %d, %Y' }}</p>
-						<h3>{{ post.title }}</h3>
-
-						{{ post.content }}
-						<p class="editor-link"><a href="cloudcannon:collections/{{ post.path }}" class="btn"><strong>&#9998;</strong> Edit Update</a></p>
-					</div>
-				</div>
-			{% endfor %}
-		</div>
-	</div>
-</div> -->
