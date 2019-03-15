@@ -3,10 +3,11 @@ layout: default
 ---
 
 <div id="docs" class="container">
-	
-		<div>
-			<h2 class="editable">{{ page.title }}</h2>
-			<span class="post-content">{{ page.content }}</span>
-		</div>
-
+	<div>
+		<img style="width: 90%; height: auto;" src="{{ page.image }}" alt="{{ page.title }}">
+	</div>
+	<div>
+		<h2 class="editable">{{ page.title }}</h2>
+		<span class="post-content">{{ page.content }}</span>
+	</div>
 </div>

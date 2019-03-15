@@ -50,7 +50,7 @@ title: BotSoft
 
 <div id="docs" class="container">
 	{% for post in site.posts reversed %}
-	<div class="columns">
+	<div class="columns" style="padding-bottom: 100px;">
 		{% if post.categories contains 'docs' %}
 		<div>
 			<img style="width: 90%; height: auto;" src="{{ baseurl }}{{ post.image }}" alt="{{ post.title }}">
