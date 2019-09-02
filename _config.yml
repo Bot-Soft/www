@@ -2,7 +2,7 @@
 # Site
 
 title: BotSoft
-url: https://botsoft.ai
+url: https://botsoft.net
 baseurl: 
 google_analytics_key: UA-109577504-1
 
@@ -18,7 +18,7 @@ author:
 social:
   name: BotSoft
   links:
-    - https://botsoft.ai
+    - https://botsoft.net
 
 # -----
 # Build

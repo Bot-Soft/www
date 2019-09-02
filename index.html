@@ -2,92 +2,11 @@
 layout: default
 title: BotSoft
 ---
-<header>
-	<div class="container">
-		<div class="column">
-			<div>
-				<h1 class="editable">{{ site.data.company.moto }}</h1>
-				<p class="editable">{{ site.data.company.moto_subtext }}</p>
-				<!-- <div class="button">
-					<a href="#docs">Learn More</a>
-				</div> -->
-			</div>
-		</div>
-		<div class="column">
-			<img src="{{ baseurl }}/images/landing-banner.png" alt="store">
-		</div>
-	</div>
-</header>
 
-<div class="container">
-	<ul class="thirds">
-		<li>
-			<div class="image">
-				<ion-icon class="icon" name="code"></ion-icon>
-			</div>
-			<h3 class="editable">Develop in IDE</h3>
-			<p class="editable">Develop chatbots in IDE of your choice.</p>
-		</li>
+{% for widget in site.data.widgets %}
 
-		<li>
-			<div class="image">
-				<ion-icon class="icon" name="logo-github"></ion-icon>
-			</div>
-			<h3 class="editable">Maintain in Git</h3>
-			<p class="editable">Collaborate with other developers and keep versions of your chatbot.</p>
-		</li>
+	{% if widget.enabled == true %}
+		{% include widgets/{{ widget.name }}.html id=widget.name %}
+	{% endif %}
 
-		<li>
-			<div class="image">
-				<ion-icon class="icon" name="cloud-upload"></ion-icon>
-				</ion-icon>
-			</div>
-			<h3 class="editable">Host in AWS</h3>
-			<p class="editable">Reliable hosting for your chatbot in AWS. Command line interface for deployment.</p>
-		</li>
-	</ul>
-</div>
-
-<div id="docs" class="container">
-	{% for post in site.posts reversed %}
-	<div class="columns" style="padding-bottom: 100px;">
-		{% if post.categories contains 'docs' %}
-		<div>
-			<img style="width: 90%; height: auto;" src="{{ baseurl }}{{ post.image }}" alt="{{ post.title }}">
-		</div>
-		<div>
-			<h2 class="editable frontpage-title">{{ post.title }}</h2>
-			<span class="frontpage-content">{{ post.excerpt }}</span>
-			<!-- <p class="editable learnmore"><a href="{{ post.permalink }}">Learn more</a></p> -->
-		</div>
-
-		{% endif %}
-	</div>
-	{% endfor %}
-</div>
-
-<div class="darker">
-	<div class="container">
-		<h2 class="editable">Subscribe</h2>
-		<p class="editable" style="text-align: center;">Sign up to receive the latest news and progress of the project.</p>
-		<META HTTP-EQUIV='content-type' CONTENT='text/html;charset=UTF-8'>
-		<form action='https://crm.zoho.eu/crm/WebToLeadForm' name=WebToLeads74775000000090003 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory()'
-		 accept-charset='UTF-8'>
-
-			<div class="col-md-6 col-sm-12">
-
-				<input type='text' style='display:none;' name='xnQsjsdp' value='b6930f3f4e7c7fdc66d8b890e3aa6bda4f863053b11fefd852467768fa2307b8' />
-				<input type='hidden' name='zc_gad' id='zc_gad' value='' />
-				<input type='text' style='display:none;' name='xmIwtLD' value='964ea99c0abed63829d6ab3c7949e8c3d6471b76fa50929abd27999a3e3989ff' />
-				<input type='text' style='display:none;' name='actionType' value='TGVhZHM=' />
-
-				<input type='text' style='display:none;' name='returnURL' value='http&#x3a;&#x2f;&#x2f;bot-soft.github.io&#x2f;www&#x2f;index' />
-
-			</div>
-
-			<input maxlength='100' name='Email' placeholder="Email" type="text" class="form-control">
-			<input type="submit" value="Sign up" />
-
-		</form>
-	</div>
-</div>
+{% endfor %}
